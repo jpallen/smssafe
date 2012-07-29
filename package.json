@@ -1,0 +1,9 @@
+{
+	"name" : "SMSSafe",
+	"description" : "An SMS password hasher",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "",
+		"request": ""
+	}
+}

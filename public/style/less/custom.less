@@ -1,0 +1,98 @@
+body {
+	border-top: 4px solid @mainColor;
+	background-image: url(/img/light_noise_diagonal.png);
+	font-size: 16px;
+}
+
+header {
+	margin: 50px;
+	h1 {
+		width: 200px;
+		margin: auto;
+		background-image: url(/img/safe.png);
+		background-repeat: no-repeat;
+		padding-left: 160px;
+		padding-top: 13px;
+		height: 130px;
+		color: @mainColor;
+		font-size: 60px;
+		line-height: 50px;
+		.safe {
+			font-size: 61px;
+		}
+	}
+}
+
+.slogan {
+	text-align: center;
+	font-size: 24px;
+	.highlight {
+		color: @mainColor;
+	}
+}
+
+blockquote {
+	background-color: #f8f8f8;
+	border-color: #ddd;
+	font-size: 14px;
+	color: #666;
+	padding: 4px 8px;
+	font-family: monospace;
+}
+
+.how-to {
+	margin-top: 50px;
+	font-size: 24px;
+	line-height: 22px;
+
+	blockquote {
+		clear: both;
+		height: 52px;
+	}
+
+	blockquote.password {
+		font-family: monospace;
+	}
+	blockquote.phrase {
+		font-family: monospace;
+	}
+
+	blockquote.phone-number {
+		padding: 16px 0 0 0;
+		height: 44px;
+		font-size: 32px;
+		text-align: center;
+		color: @secondaryColor;
+		background-color: #f8f8f8;
+	}
+
+	.number {
+		float: left;
+		height: 48px;
+		width: 48px;
+		.border-radius(24px);
+		background-color: @mainColor;
+		font-size: 42px;
+		color: white;
+		line-height: 44px;
+		text-align: center;
+		margin: 0 10px 10px 0;
+	}
+}
+
+.divider {
+	border-top: 1px solid #999;
+	margin: 40px 0;
+}
+
+.tips-n-tricks {
+	li {
+		padding-top: 10px;
+		line-height: 24px;
+	}
+
+	blockquote {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}

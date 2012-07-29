@@ -4202,6 +4202,7 @@ body {
   border-top: 4px solid #f3943c;
   background-image: url(/img/light_noise_diagonal.png);
   font-size: 16px;
+  line-height: 24px;
 }
 header {
   margin: 50px;
@@ -4284,4 +4285,16 @@ blockquote {
 .tips-n-tricks blockquote {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+h3 {
+  color: #f3943c;
+}
+p {
+  margin: 15px 0;
+}
+.footer {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: -10px;
+  font-size: 14px;
 }
